@@ -12,6 +12,10 @@
   <div id="app">
     <div v-html="headerHtml"></div>
     {{ message }}
+    <div>
+      <a v-bind:href="link">Vuejs|GitHub</a>
+      <a :href="link">Vuejs|GitHub</a>
+    </div>
   </div>
   <script src="./index.js"></script>
 </body>

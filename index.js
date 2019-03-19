@@ -3,5 +3,6 @@ var app = new Vue({
   data: {
     headerHtml: '<h1>Hello Vue!</h1>',
     message: 'Hello Vue!',
+    link: 'https://github.com/vuejs/vue',
   }
 })
