@@ -16,6 +16,14 @@
       <a v-bind:href="link">Vuejs|GitHub</a>
       <a :href="link">Vuejs|GitHub</a>
     </div>
+    <div>
+      <p>{{date}}</p>
+    </div>
+    <button v-on:click="methodsDate">Click Me!!</button>
+    <button @click="methodsDate">Click Me!!</button>
+    <div>
+      <p>{{computedDate}}</p>
+    </div>
   </div>
   <script src="./index.js"></script>
 </body>
